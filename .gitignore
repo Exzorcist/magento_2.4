@@ -1,0 +1,52 @@
+/*
+
+# Required folders
+!/app
+/app/*
+
+!/pub
+/pub/*
+
+!/vendor
+/vendor/*
+
+
+# Project files
+!/app/design
+/app/design/*
+!/app/design/frontend
+/app/design/frontend/*
+!/app/design/frontend/Vendor
+
+
+# Default media source
+!/pub/media
+/pub/media/*
+!/pub/media/default
+
+
+# List of included modules
+!/app/etc
+/app/etc/*
+!/app/etc/config.php
+
+
+# Changes in vendor Magento 2 -> fixed error installation
+!/vendor/magento
+/vendor/magento/*
+!/vendor/magento/framework
+/vendor/magento/framework/*
+!/vendor/magento/framework/View
+/vendor/magento/framework/View/*
+!/vendor/magento/framework/View/Element
+/vendor/magento/framework/View/Element/*
+!/vendor/magento/framework/View/Element/Template
+/vendor/magento/framework/View/Element/Template/*
+!/vendor/magento/framework/View/Element/Template/File
+/vendor/magento/framework/View/Element/Template/File/*
+!/vendor/magento/framework/View/Element/Template/File/Validator.php
+
+
+# Separate files in the project root
+!/.gitignore
+!/composer.json
