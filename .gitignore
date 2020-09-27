@@ -56,8 +56,10 @@
 
 
 # For frontend local development
+!/documentation.md
 !/Gruntfile.js
 !/package.json
+!/livereload.js
 
 !/dev/tools
 /dev/tools/*
