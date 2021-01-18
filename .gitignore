@@ -34,6 +34,11 @@
 !/app/etc/config.php
 
 
+# Theme modules
+!/app/code
+/app/code/*
+!/app/code/GoMageFE
+
 # Changes in vendor Magento 2 -> fixed error installation
 !/vendor/magento
 /vendor/magento/*

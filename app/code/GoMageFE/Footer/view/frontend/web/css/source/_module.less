@@ -1,0 +1,27 @@
+//
+//  Variables
+//  ---------------------------------------------
+
+@__background-color: darken(@color-white, 10%);
+@__font-size_mobile: 12px;
+@__font-size_tablet: 18px;
+
+.footer-up-block {
+    //
+    //  Common (style-m)
+    //  ---------------------------------------------
+    & when (@media-common = true) {
+        background-color: @__background-color;
+        font-size: @__font-size_mobile;
+    }
+
+    //
+    //  Tablet+ (style-l)
+    //  ---------------------------------------------
+    & when (@media-target = 'desktop') {
+        // tablet 768px
+        @media only screen and (min-width: @screen__m) {
+            font-size: @__font-size_tablet;
+        }
+    }
+}
